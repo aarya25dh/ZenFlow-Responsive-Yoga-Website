@@ -1,0 +1,378 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Contact ZenFlow Nepal - Our Thamel studio in Kathmandu. Reach out with questions, schedule inquiries, or feedback. Visit us or use our digital contact form.">
+    <title>Contact Us - ZenFlow Nepal Yoga & Meditation Studio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- HEADER & NAVIGATION -->
+    <header>
+        <nav>
+            <a href="index.html" class="logo">
+                <img src="images/logo.png" alt="ZenFlow Logo">
+            </a>
+            <input type="checkbox" id="nav-toggle" class="nav-toggle-input" aria-hidden="true">
+            <label for="nav-toggle" class="nav-toggle" aria-label="Toggle navigation">
+                <span></span>
+                <span></span>
+                <span></span>
+            </label>
+            <ul class="nav-links">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About Us</a></li>
+                <li><a href="yoga-types.html">Yoga Types</a></li>
+                <li><a href="schedule.html">Class Schedule</a></li>
+                <li><a href="resources.html">Resources</a></li>
+                <li><a href="contact.html" class="active">Contact</a></li>
+                <li><a href="signup.html" class="signup-btn">Sign Up</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <!-- HERO SECTION -->
+        <section class="hero">
+            <h1>Get In Touch</h1>
+            <p>Have questions? We'd love to hear from you. Reach out and let's connect.</p>
+        </section>
+
+        <!-- CONTACT CONTENT -->
+        <section>
+            <div class="contact-grid">
+                <!-- CONTACT FORM -->
+                <div>
+                    <h2>Send us a Message</h2>
+                    <form>
+                        <div class="form-group">
+                            <label for="name">Full Name</label>
+                            <input type="text" id="name" name="name" placeholder="Your name" required>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="email">Email Address</label>
+                            <input type="email" id="email" name="email" placeholder="your.email@example.com" required>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="phone">Phone (Optional)</label>
+                            <input type="tel" id="phone" name="phone" placeholder="+1 (555) 123-4567">
+                        </div>
+
+                        <div class="form-group">
+                            <label for="subject">Subject</label>
+                            <select id="subject" name="subject" required>
+                                <option value="">Select a subject...</option>
+                                <option value="class-inquiry">Class Inquiry</option>
+                                <option value="membership">Membership Question</option>
+                                <option value="schedule">Schedule Question</option>
+                                <option value="private-session">Private Session Request</option>
+                                <option value="workshop">Workshop Interest</option>
+                                <option value="general">General Inquiry</option>
+                                <option value="feedback">Feedback</option>
+                            </select>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="message">Message</label>
+                            <textarea id="message" name="message" placeholder="Tell us what's on your mind..." required></textarea>
+                        </div>
+
+                        <div class="form-group checkbox-group">
+                            <label>
+                                <input type="checkbox" name="newsletter" checked>
+                                Subscribe to our wellness newsletter
+                            </label>
+                        </div>
+
+                        <button type="submit" class="btn btn-primary" style="width: 100%; margin-top: 1rem;">Send Message</button>
+                    </form>
+                </div>
+
+                <!-- CONTACT INFO -->
+                <div>
+                    <h2>Contact Information</h2>
+                    
+                    <aside>
+                        <h4>📍 Studio Location</h4>
+                        <p>
+                            ZenFlow Nepal<br>
+                            Mandala Street, Thamel<br>
+                            Kathmandu 44600<br>
+                            Bagmati Province, Nepal
+                        </p>
+                    </aside>
+
+                    <aside>
+                        <h4>📞 Phone & Email</h4>
+                        <p>
+                            <strong>Main:</strong> +977-1-5901234<br>
+                            <strong>Mobile/WhatsApp:</strong> +977-9841234567<br>
+                            <strong>Email:</strong> info@zenflownepal.com
+                        </p>
+                    </aside>
+
+                    <aside>
+                        <h4>⏰ Studio Hours (Nepal Standard Time - NST)</h4>
+                        <p>
+                            <strong>Monday - Friday:</strong> 6:00 AM - 9:00 PM (NST)<br>
+                            <strong>Saturday:</strong> 8:00 AM - 7:00 PM (NST)<br>
+                            <strong>Sunday:</strong> 9:00 AM - 6:00 PM (NST)<br>
+                            <br>
+                            <em>Closed on major Hindu festivals and national holidays</em>
+                        </p>
+                    </aside>
+
+                    <aside>
+                        <h4>🚗 Getting Here</h4>
+                        <p>
+                            Easy access from Thamel's main tourist area.<br>
+                            Public buses: Routes to Kathmandu Durbar Square nearby.<br>
+                            Taxi/Rickshaw: Just ask for Mandala Street in Thamel.<br>
+                            Limited parking available. Walk-in welcome!
+                        </p>
+                    </aside>
+                </div>
+            </div>
+        </section>
+
+        <!-- RESPONSIVE ADJUSTMENT -->
+        <style>
+            @media (max-width: 768px) {
+                .contact-section {
+                    display: block !important;
+                }
+            }
+        </style>
+
+        <!-- GOOGLE MAPS -->
+        <section>
+            <h2 class="text-center">Find Us On the Map</h2>
+            <p class="text-center">Visit our studio in the heart of Thamel, Kathmandu. We're located near the famous temples and central tourist area.</p>
+            <div style="margin: 2rem 0; border-radius: var(--radius-lg); overflow: hidden; box-shadow: var(--shadow-md); height: 400px;">
+                <iframe 
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3532.0897745789654!2d85.3152!3d27.7172!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39eb19a5c7f0c1cd%3A0x00a7c4c7b0b0b0b0!2sThamel%2C%20Kathmandu!5e0!3m2!1sen!2snp!4v1234567890"
+                    width="100%"
+                    height="100%"
+                    style="border: none;"
+                    allowfullscreen=""
+                    loading="lazy"
+                    referrerpolicy="no-referrer-when-downgrade"
+                    title="ZenFlow Nepal Studio Location - Thamel, Kathmandu">
+                </iframe>
+            </div>
+            <p class="text-center" style="margin-top: 1rem; color: #999; font-size: 0.9rem;">
+                <em>ZenFlow Nepal is located on Mandala Street in Thamel, Kathmandu.</em>
+            </p>
+        </section>
+
+        <!-- FAQ SECTION -->
+        <section id="faq">
+            <h2 class="text-center">Frequently Asked Questions</h2>
+            <p class="text-center">Find answers to common questions about our classes, membership, and services</p>
+
+            <div class="faq-container">
+                <!-- FAQ 1 -->
+                <div class="faq-item">
+                    <div class="faq-question">
+                        <span>Do I need prior yoga experience to join?</span>
+                        <span>+</span>
+                    </div>
+                    <div class="faq-answer">
+                        <p>
+                            Not at all! Our classes are designed for all levels - from complete beginners to advanced practitioners. We recommend starting with our beginner-level Hatha or gentle Yin classes. Our instructors will provide modifications for every pose. We offer a free trial class so you can experience the studio and ask any questions!
+                        </p>
+                    </div>
+                </div>
+
+                <!-- FAQ 2 -->
+                <div class="faq-item">
+                    <div class="faq-question">
+                        <span>Do you teach in English? Can international travelers join?</span>
+                        <span>+</span>
+                    </div>
+                    <div class="faq-answer">
+                        <p>
+                            Yes! All our classes are taught in English, making them perfect for international tourists and travelers visiting Kathmandu. Our instructors are fluent English speakers experienced with students from around the world. Walk-ins are welcome, and our beginner classes are especially suited for first-time visitors. We're located in Thamel, the heart of the tourist area!
+                        </p>
+                    </div>
+                </div>
+
+                <!-- FAQ 3 -->
+                <div class="faq-item">
+                    <div class="faq-question">
+                        <span>How long is each class?</span>
+                        <span>+</span>
+                    </div>
+                    <div class="faq-answer">
+                        <p>
+                            Most of our classes are 60 minutes long, which includes warm-up, main practice, and cool-down/savasana. We also offer 30-minute express classes during lunch hours and 90-minute immersive sessions on certain days. Check our schedule for specific durations.
+                        </p>
+                    </div>
+                </div>
+
+                <!-- FAQ 4 -->
+                <div class="faq-item">
+                    <div class="faq-question">
+                        <span>What about altitude? Will high altitude affect my practice?</span>
+                        <span>+</span>
+                    </div>
+                    <div class="faq-answer">
+                        <p>
+                            Kathmandu sits at 1,338m (4,390 ft) elevation. Most visitors and locals adjust within a few days. Our instructors are trained to guide you through altitude adaptation. We recommend drinking plenty of water, starting with gentler classes like Hatha or Yin if you're new to the altitude, and taking breaks as needed. Many find that yoga actually helps with acclimatization!
+                        </p>
+                    </div>
+                </div>
+
+                <!-- FAQ 5 -->
+                <div class="faq-item">
+                    <div class="faq-question">
+                        <span>What if I'm pregnant or have injuries?</span>
+                        <span>+</span>
+                    </div>
+                    <div class="faq-answer">
+                        <p>
+                            Please inform your instructor before class begins. We offer prenatal yoga classes for expecting mothers and have instructors trained in modifications for various injuries and conditions. We're happy to customize your practice. Contact us to discuss your specific situation.
+                        </p>
+                    </div>
+                </div>
+
+                <!-- FAQ 6 -->
+                <div class="faq-item">
+                    <div class="faq-question">
+                        <span>Do you offer private sessions?</span>
+                        <span>+</span>
+                    </div>
+                    <div class="faq-answer">
+                        <p>
+                            Yes! We offer personalized one-on-one sessions tailored to your goals and needs. Private sessions are available for beginners, athletes, rehabilitation, or anyone seeking focused attention. Contact us for rates and scheduling.
+                        </p>
+                    </div>
+                </div>
+
+                <!-- FAQ 7 -->
+                <div class="faq-item">
+                    <div class="faq-question">
+                        <span>What are your pricing options? Do you offer tourist packages?</span>
+                        <span>+</span>
+                    </div>
+                    <div class="faq-answer">
+                        <p>
+                            We offer flexible pricing in Nepali Rupees (NPR): Drop-in class NPR 800, Weekly pass NPR 3,500, Monthly unlimited NPR 8,500, and special Tourist 5-Day Pass NPR 4,000. We also offer private sessions, workshops, and group bookings. Payment accepted in cash (NPR) or through major mobile payment services. Contact us for current rates and special group discounts.
+                        </p>
+                    </div>
+                </div>
+
+                <!-- FAQ 8 -->
+                <div class="faq-item">
+                    <div class="faq-question">
+                        <span>Do you offer corporate wellness programs?</span>
+                        <span>+</span>
+                    </div>
+                    <div class="faq-answer">
+                        <p>
+                            Absolutely! We offer customized corporate wellness programs for companies of all sizes. Options include on-site classes, group memberships, wellness workshops, and stress-reduction seminars. Bulk discounts available. Email support@zenflow.com for details.
+                        </p>
+                    </div>
+                </div>
+
+                <!-- FAQ 9 -->
+                <div class="faq-item">
+                    <div class="faq-question">
+                        <span>Is your studio connected to Buddhist or spiritual traditions?</span>
+                        <span>+</span>
+                    </div>
+                    <div class="faq-answer">
+                        <p>
+                            Absolutely! ZenFlow Nepal is deeply rooted in Himalayan yoga traditions and inspired by Buddhist meditation practices found throughout Nepal. We're walking distance from Boudhanath (UNESCO World Heritage Site) and honor the spiritual heritage of Lumbini, birthplace of Buddha. Our practice blends ancient wisdom with modern wellness. You'll find our classes infused with mindfulness, pranayama, and meditation that align with Nepal's rich spiritual legacy.
+                        </p>
+                    </div>
+                </div>
+
+                <!-- FAQ 10 -->
+                <div class="faq-item">
+                    <div class="faq-question">
+                        <span>Do you offer workshops or special events?</span>
+                        <span>+</span>
+                    </div>
+                    <div class="faq-answer">
+                        <p>
+                            Yes! We regularly offer special workshops, seasonal celebrations, and events aligned with Nepal's festivals and spiritual calendar. Recent offerings include Himalayan meditation retreats, pranayama intensives, and sunrise rooftop sessions with views of the Kathmandu valley. We also host visiting teachers and offer themed yoga retreats to sacred sites like Pashupatinath Temple. Follow our social media for announcements!
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- CTA BANNER -->
+        <div class="cta-banner">
+            <h2>Ready to Join Us?</h2>
+            <p>Start your wellness journey with ZenFlow today. Get your free trial class and experience the difference.</p>
+            <div class="btn-group">
+                <a href="signup.html" class="btn btn-outline">Sign Up for Free Trial</a>
+                <a href="schedule.html" class="btn btn-outline">View Schedule</a>
+            </div>
+        </div>
+    </main>
+
+    <!-- FOOTER -->
+    <footer>
+        <div class="container">
+            <!-- About Footer Section -->
+            <section class="footer-section">
+                <h4>About ZenFlow Nepal</h4>
+                <p>Founded in 2021 in the heart of Thamel, Kathmandu, ZenFlow Nepal is dedicated to bringing authentic Himalayan yoga, meditation, and wellness practices to everyone, rooted in ancient traditions and designed for modern living.</p>
+                <div class="social-links">
+                    <a href="#facebook" title="Facebook">f</a>
+                    <a href="#instagram" title="Instagram">📷</a>
+                    <a href="#youtube" title="YouTube">▶</a>
+                </div>
+            </section>
+
+            <!-- Quick Links -->
+            <section class="footer-section">
+                <h4>Quick Links</h4>
+                <a href="index.html">Home</a>
+                <a href="about.html">About Us</a>
+                <a href="yoga-types.html">Yoga Types</a>
+                <a href="schedule.html">Class Schedule</a>
+                <a href="resources.html">Resources</a>
+                <a href="contact.html">Contact</a>
+            </section>
+
+            <!-- Contact Us -->
+            <section class="footer-section">
+                <h4>Contact Us</h4>
+                <p><strong>Phone:</strong> +977-1-5901234<br>
+                <strong>Mobile:</strong> +977-9841234567<br>
+                <strong>Email:</strong> info@zenflownepal.com<br>
+                <strong>Location:</strong> Mandala Street, Thamel<br>
+                Kathmandu 44600, Nepal</p>
+            </section>
+
+            <!-- Newsletter -->
+            <section class="footer-section">
+                <h4>Resources</h4>
+                <a href="resources.html#blog">Blog</a>
+                <a href="resources.html#tutorials">Video Tutorials</a>
+                <a href="resources.html#guides">Guides & Tips</a>
+                <a href="contact.html#faq">FAQ</a>
+            </section>
+        </div>
+
+        <!-- Footer Bottom -->
+        <div class="footer-bottom">
+            <p>&copy; 2026 ZenFlow Nepal – Yoga & Meditation Studio | Kathmandu, Nepal | Rooted in Himalayan Tradition. Designed for Modern Living.</p>
+        </div>
+    </footer>
+
+    <!-- SIMPLE FAQ TOGGLE BEHAVIOR (CSS-only via :focus) -->
+    <script>
+        /* Note: This is informational - the form itself needs no JavaScript for styling,
+           but this comment explains how the FAQ could work with CSS :focus pseudo-class
+           if enhanced in the future. The current design uses CSS :hover which works on all devices. */
+    </script>
+</body>
+</html>

@@ -1,0 +1,366 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Sign up for ZenFlow Nepal membership and start your yoga and meditation journey in Thamel, Kathmandu. Flexible membership plans in NPR.">
+    <title>Sign Up - ZenFlow Nepal Yoga & Meditation Studio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- HEADER & NAVIGATION -->
+    <header>
+        <nav>
+            <a href="index.html" class="logo">
+                <img src="images/logo.png" alt="ZenFlow Logo">
+            </a>
+            <input type="checkbox" id="nav-toggle" class="nav-toggle-input" aria-hidden="true">
+            <label for="nav-toggle" class="nav-toggle" aria-label="Toggle navigation">
+                <span></span>
+                <span></span>
+                <span></span>
+            </label>
+            <ul class="nav-links">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About Us</a></li>
+                <li><a href="yoga-types.html">Yoga Types</a></li>
+                <li><a href="schedule.html">Class Schedule</a></li>
+                <li><a href="resources.html">Resources</a></li>
+                <li><a href="contact.html">Contact</a></li>
+                <li><a href="signup.html" class="signup-btn active">Sign Up</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <!-- HERO SECTION -->
+        <section class="hero">
+            <h1>Begin Your Journey</h1>
+            <p>Join ZenFlow and transform your life through yoga and meditation</p>
+        </section>
+
+        <!-- SIGNUP SECTION -->
+        <section style="background: rgba(20, 184, 166, 0.05); border-radius: var(--radius-lg);">
+            <div style="max-width: 700px; margin: 0 auto;">
+                <h2 class="text-center" style="margin-bottom: 1rem;">Create Your Account</h2>
+                <p class="text-center" style="margin-bottom: 2rem; color: #666;">
+                    Join thousands of practitioners who have discovered peace and wellness through ZenFlow
+                </p>
+
+                <form style="background: white; padding: 2rem; border-radius: var(--radius-lg); box-shadow: var(--shadow-md); margin-bottom: 0;">
+                    <!-- NAME FIELD -->
+                    <div class="form-group">
+                        <label for="fullname">Full Name</label>
+                        <input type="text" id="fullname" name="fullname" placeholder="Enter your full name" required>
+                    </div>
+
+                    <!-- EMAIL FIELD -->
+                    <div class="form-group">
+                        <label for="email">Email Address</label>
+                        <input type="email" id="email" name="email" placeholder="your.email@example.com" required>
+                    </div>
+
+                    <!-- PHONE FIELD -->
+                    <div class="form-group">
+                        <label for="phone">Phone Number</label>
+                        <input type="tel" id="phone" name="phone" placeholder="+1 (555) 123-4567" required>
+                    </div>
+
+                    <!-- PASSWORD FIELD -->
+                    <div class="form-group">
+                        <label for="password">Password</label>
+                        <input type="password" id="password" name="password" placeholder="Create a strong password" required>
+                    </div>
+
+                    <!-- CONFIRM PASSWORD -->
+                    <div class="form-group">
+                        <label for="confirm-password">Confirm Password</label>
+                        <input type="password" id="confirm-password" name="confirm-password" placeholder="Re-enter your password" required>
+                    </div>
+
+                    <!-- MEMBERSHIP PLAN SELECTION -->
+                    <fieldset style="border: 2px solid #e0e0e0; padding: 1.5rem; border-radius: var(--radius-md); margin-bottom: 1.5rem;">
+                        <legend style="font-weight: 600; color: var(--primary-sky-blue); padding: 0 0.5rem; margin-left: -0.5rem;">Select Membership Plan</legend>
+                        
+                        <div class="form-group radio-group">
+                            <label>
+                                <input type="radio" name="membership" value="drop-in" required>
+                                <strong>Drop-In Pass</strong> - NPR 800/class (No commitment)
+                            </label>
+                            <label>
+                                <input type="radio" name="membership" value="5-pack" required>
+                                <strong>5-Class Pack</strong> - NPR 3,500/5 classes (Valid 2 months)
+                            </label>
+                            <label>
+                                <input type="radio" name="membership" value="unlimited-monthly" required>
+                                <strong>Unlimited Monthly</strong> - NPR 8,500/month (Cancel anytime)
+                            </label>
+                            <label>
+                                <input type="radio" name="membership" value="annual" required>
+                                <strong>Annual Membership</strong> - NPR 85,000/year (15% savings!)
+                            </label>
+                            <label>
+                                <input type="radio" name="membership" value="tourist-5day" required>
+                                <strong>Tourist 5-Day Pass</strong> - NPR 4,000 (Perfect for visitors)
+                            </label>
+                        </div>
+                    </fieldset>
+
+                    <!-- PREFERRED CLASS TYPE -->
+                    <div class="form-group">
+                        <label for="preferred-class">Preferred Class Type</label>
+                        <select id="preferred-class" name="preferred-class" required>
+                            <option value="">Select your preferred class...</option>
+                            <option value="hatha">Hatha Yoga (Beginner-friendly)</option>
+                            <option value="vinyasa">Vinyasa Flow (Dynamic)</option>
+                            <option value="yin">Yin Yoga (Restorative)</option>
+                            <option value="himalayan-traditional">Himalayan Traditional Yoga (Authentic)</option>
+                            <option value="sunrise-himalayan">Sunrise Himalayan Flow (Rooftop)</option>
+                            <option value="meditation">Meditation Sessions</option>
+                            <option value="mixed">Mix & Match (All styles)</option>
+                        </select>
+                    </div>
+
+                    <!-- EXPERIENCE LEVEL -->
+                    <div class="form-group">
+                        <label for="experience">Yoga Experience Level</label>
+                        <select id="experience" name="experience" required>
+                            <option value="">Select your experience level...</option>
+                            <option value="beginner">Beginner (New to yoga)</option>
+                            <option value="intermediate">Intermediate (1-2 years practice)</option>
+                            <option value="advanced">Advanced (3+ years practice)</option>
+                            <option value="very-advanced">Very Advanced (Regular practitioner)</option>
+                        </select>
+                    </div>
+
+                    <!-- HOW DID YOU HEAR ABOUT US -->
+                    <div class="form-group">
+                        <label for="referral">How did you hear about us?</label>
+                        <select id="referral" name="referral" required>
+                            <option value="">Select an option...</option>
+                            <option value="search">Search Engine / Google</option>
+                            <option value="social-media">Social Media</option>
+                            <option value="friend">Friend Referral</option>
+                            <option value="thamel-area">Found us in Thamel</option>
+                            <option value="hotel">Hotel/Hostel Recommendation</option>
+                            <option value="tourist-guide">Tourist Guide</option>
+                            <option value="boudhanath">Near Boudhanath visit</option>
+                            <option value="other">Other</option>
+                        </select>
+                    </div>
+
+                    <!-- SPECIAL NEEDS -->
+                    <div class="form-group">
+                        <label for="special-needs">Special Requirements (Optional)</label>
+                        <textarea id="special-needs" name="special-needs" placeholder="Any injuries, conditions, or preferences we should know about? (e.g., back problems, pregnant, etc.)"></textarea>
+                    </div>
+
+                    <!-- TERMS & CONDITIONS -->
+                    <fieldset style="border: 2px solid #e0e0e0; padding: 1.5rem; border-radius: var(--radius-md); margin-bottom: 1.5rem;">
+                        <legend style="font-weight: 600; color: var(--primary-teal); padding: 0 0.5rem; margin-left: -0.5rem;">I Agree To</legend>
+                        
+                        <div class="form-group checkbox-group">
+                            <label>
+                                <input type="checkbox" name="terms" required>
+                                I agree to the Terms and Conditions and Privacy Policy
+                            </label>
+                            <label>
+                                <input type="checkbox" name="waiver" required>
+                                I confirm I have read and agree to the health and safety waiver
+                            </label>
+                            <label>
+                                <input type="checkbox" name="newsletter">
+                                I'd like to receive wellness tips and promotions via email (optional)
+                            </label>
+                        </div>
+                    </fieldset>
+
+                    <!-- SUBMIT BUTTON -->
+                    <button type="submit" class="btn btn-primary" style="width: 100%; padding: 1rem; font-size: 1.1rem; font-weight: 600;">
+                        Create My Account
+                    </button>
+                </form>
+
+                <!-- SIGNIN LINK -->
+                <p class="text-center" style="margin-top: 1.5rem; color: #666;">
+                    Already have an account? 
+                    <a href="#signin" style="color: var(--primary-green); font-weight: 600;">Sign In Here</a>
+                </p>
+            </div>
+        </section>
+
+        <!-- BENEFITS SECTION -->
+        <section>
+            <h2 class="text-center">What You Get With Your Membership</h2>
+            <p class="text-center">ZenFlow members enjoy exclusive benefits designed to support your wellness journey</p>
+
+            <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: 2rem; margin: 2rem 0;">
+                <aside>
+                    <h4>🎓 Expert Guidance</h4>
+                    <p>Learn from certified yoga instructors with years of experience. Benefit from their expertise and personalized modifications.</p>
+                </aside>
+
+                <aside>
+                    <h4>📚 Access to Resources</h4>
+                    <p>Unlimited access to our library of video tutorials, written guides, meditation tracks, and wellness articles.</p>
+                </aside>
+
+                <aside>
+                    <h4>🏆 Progress Tracking</h4>
+                    <p>Track your classes attended, poses mastered, and personal milestones as you grow on your yoga journey.</p>
+                </aside>
+
+                <aside>
+                    <h4>🤝 Community Support</h4>
+                    <p>Join our supportive community of practitioners. Make friends, share experiences, and inspire each other.</p>
+                </aside>
+
+                <aside>
+                    <h4>🎁 Exclusive Events</h4>
+                    <p>Members-only special events, workshops, retreats, and seasonal celebration gatherings throughout the year.</p>
+                </aside>
+
+                <aside>
+                    <h4>💰 Best Pricing</h4>
+                    <p>Members receive special discounts on private sessions, workshops, supplements, and merchandise.</p>
+                </aside>
+
+                <aside>
+                    <h4>📱 Mobile App Access</h4>
+                    <p>Download our app to book classes, access tutorials, and connect with the ZenFlow community on-the-go.</p>
+                </aside>
+
+                <aside>
+                    <h4>🌟 Flexibility</h4>
+                    <p>Choose classes anytime. Upgrade or downgrade your membership. Pause your membership when needed.</p>
+                </aside>
+            </div>
+        </section>
+
+        <!-- CTA BANNER -->
+        <div class="cta-banner">
+            <h2>Your First Class is Free!</h2>
+            <p>New members receive a complimentary trial class. No commitment, no credit card required. Just come and experience ZenFlow.</p>
+            <a href="schedule.html" class="btn btn-outline">View Class Schedule</a>
+        </div>
+
+        <!-- FAQ FOR SIGNUP -->
+        <section>
+            <h2 class="text-center">Sign-Up Questions?</h2>
+            
+            <div class="faq-container" style="max-width: 700px; margin: 2rem auto;">
+                <div class="faq-item">
+                    <div class="faq-question">
+                        <span>Is there a trial period or free class?</span>
+                        <span>+</span>
+                    </div>
+                    <div class="faq-answer">
+                        <p>Yes! New members get one completely free trial class. No credit card needed. You can experience our studio, meet our instructors, and find a class that resonates with you before committing.</p>
+                    </div>
+                </div>
+
+                <div class="faq-item">
+                    <div class="faq-question">
+                        <span>Do I need to pay anything upfront?</span>
+                        <span>+</span>
+                    </div>
+                    <div class="faq-answer">
+                        <p>No payment is required until you decide to join. Your first class is completely free. When you're ready to purchase a membership, enter your payment information at checkout.</p>
+                    </div>
+                </div>
+
+                <div class="faq-item">
+                    <div class="faq-question">
+                        <span>Can I change my membership plan later?</span>
+                        <span>+</span>
+                    </div>
+                    <div class="faq-answer">
+                        <p>Absolutely! You can upgrade to a higher tier or downgrade anytime. Contact our front desk or manage your account in our mobile app. Changes take effect on your next billing cycle.</p>
+                    </div>
+                </div>
+
+                <div class="faq-item">
+                    <div class="faq-question">
+                        <span>What if I need to cancel?</span>
+                        <span>+</span>
+                    </div>
+                    <div class="faq-answer">
+                        <p>You can cancel anytime with no penalties. Monthly memberships require 14-day notice. Annual memberships offer pro-rata refunds within 90 days. We'll be sad to see you go, but we understand life happens!</p>
+                    </div>
+                </div>
+
+                <div class="faq-item">
+                    <div class="faq-question">
+                        <span>How do I start attending classes?</span>
+                        <span>+</span>
+                    </div>
+                    <div class="faq-answer">
+                        <p>After creating your account, you'll receive confirmation and a welcome email with next steps. Book your first free trial class through our website or call us at (555) 123-YOGA. Arrive 10-15 minutes early and we'll help you get set up!</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- CONTACT SECTION -->
+        <section style="background: rgba(196, 181, 217, 0.08); border-radius: var(--radius-lg); padding: 2rem; text-align: center;">
+            <h3>Still Have Questions?</h3>
+            <p>Our team is happy to help! Reach out to us for personalized guidance in English.</p>
+            <div class="btn-group">
+                <a href="contact.html" class="btn btn-primary">Contact Us</a>
+                <a href="tel:+97715901234" class="btn btn-secondary">Call: +977-1-5901234</a>
+            </div>
+        </section>
+    </main>
+
+    <!-- FOOTER -->
+    <footer>
+        <div class="container">
+            <!-- About Footer Section -->
+            <section class="footer-section">
+                <h4>About ZenFlow Nepal</h4>
+                <p>Founded in 2021 in the heart of Thamel, Kathmandu, ZenFlow Nepal is dedicated to bringing authentic Himalayan yoga, meditation, and wellness practices to everyone, rooted in ancient traditions and designed for modern living.</p>
+                <div class="social-links">
+                    <a href="#facebook" title="Facebook">f</a>
+                    <a href="#instagram" title="Instagram">📷</a>
+                    <a href="#youtube" title="YouTube">▶</a>
+                </div>
+            </section>
+
+            <!-- Quick Links -->
+            <section class="footer-section">
+                <h4>Quick Links</h4>
+                <a href="index.html">Home</a>
+                <a href="about.html">About Us</a>
+                <a href="yoga-types.html">Yoga Types</a>
+                <a href="schedule.html">Class Schedule</a>
+                <a href="resources.html">Resources</a>
+                <a href="contact.html">Contact</a>
+            </section>
+
+            <!-- Contact Us -->
+            <section class="footer-section">
+                <h4>Contact Us</h4>
+                <p><strong>Phone:</strong> +977-1-5901234<br>
+                <strong>Mobile:</strong> +977-9841234567<br>
+                <strong>Email:</strong> info@zenflownepal.com<br>
+                <strong>Location:</strong> Mandala Street, Thamel<br>
+                Kathmandu 44600, Nepal</p>
+            </section>
+
+            <!-- Newsletter -->
+            <section class="footer-section">
+                <h4>Resources</h4>
+                <a href="resources.html#blog">Blog</a>
+                <a href="resources.html#tutorials">Video Tutorials</a>
+                <a href="resources.html#guides">Guides & Tips</a>
+                <a href="contact.html#faq">FAQ</a>
+            </section>
+        </div>
+
+        <!-- Footer Bottom -->
+        <div class="footer-bottom">
+            <p>&copy; 2026 ZenFlow Nepal – Yoga & Meditation Studio | Kathmandu, Nepal | Rooted in Himalayan Tradition. Designed for Modern Living.</p>
+        </div>
+    </footer>
+</body>
+</html>
