@@ -8,7 +8,7 @@ Inspired by the peaceful energy of the Himalayas, this website represents a yoga
 
 ## 🌐 Live Demo
 
-🔗 https://aarya25dh.github.io/zenflow-nepal-yoga-website/
+🔗 https://aarya25dh.github.io/zenflow-responsive-yoga-website/
 
 ---
 
